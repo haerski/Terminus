@@ -48,7 +48,8 @@ def view_size(view):
     if nb_rows < 1:
         nb_rows = 1
 
-    return (nb_rows, nb_columns)
+    # return (nb_rows, nb_columns)
+    return (nb_rows, 1500)
 
 
 class TerminusInsertCommand(sublime_plugin.TextCommand):
